@@ -1,0 +1,39 @@
+#section-1 {
+    background-color: var(--laranja-principal);
+}
+#section-1 div.container {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-1 div.container div.flex-item h2 {
+    color: var(--amarelo);
+    font-size: 45pt;
+    text-align: center;
+}
+
+#section-2 {
+    padding: 100px 0px;
+}
+#section-2 div.container {
+    width: 65%;
+    margin: auto;
+}
+#section-2 div.container div.flex-item h3 {
+    color: var(--laranja-principal);
+    margin: 15px 0px;
+}
+#section-2 div.container div.flex-item p {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1200px){
+    #section-1 div.container {
+        height: 20vh;
+    }
+    #section-1 div.container div.flex-item h2 {
+        font-size: 20pt;
+    }
+}

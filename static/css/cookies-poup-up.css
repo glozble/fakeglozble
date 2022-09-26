@@ -1,0 +1,54 @@
+#cookies-poup-up {
+    width: 90%;
+    margin: 30px calc((100vw - 90%) / 2);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#cookies-poup-up div.container {
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.2);
+}
+#cookies-poup-up div.container div.flex-item {
+    display: flex;
+    align-items: center;
+}
+#cookies-poup-up div.container div.flex-item div.content h3 {
+    font-size: 18pt;
+    margin-bottom: 5px;
+    color: var(--laranja-principal);
+}
+#cookies-poup-up div.container div.flex-item div.content p {
+    margin-bottom: 5px;
+}
+#cookies-poup-up div.container div.flex-item div.content p a {
+    color: var(--laranja-principal);
+}
+#cookies-poup-up div.container div.flex-item button {
+    min-width: 200px;
+    margin-left: 20px;
+    height: 50px;
+    background-color: var(--laranja-principal);
+    color: white;
+    font-size: 13pt;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#cookies-poup-up div.container div.flex-item button:hover {
+    background-color: #dd6700;
+}
+
+
+@media (max-width: 920px){
+    #cookies-poup-up div.container div.flex-item {
+        flex-direction: column;
+    }
+    #cookies-poup-up div.container div.flex-item button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
